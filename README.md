@@ -1,3 +1,6 @@
-# Ders-Programı-
-Üniversiteler veya okullarda ders programı hazırlamayı kolaylaştıran bir uygulamadır.
-Kod imzalama sertifikası olmadığı için Windows SmartScreen "Bilinmeyen yayıncı" uyarısı verecektir. "Ek bilgi" → "Yine de çalıştır" komutlarıyla uygulamayı çalıştırabilirsiniz.
+## Kurulum Notu
+Bu uygulama açık kaynak olduğu için kod imzalama sertifikası kullanılmamıştır.
+Windows "Bilinmeyen yayıncı" uyarısı verirse:
+1. "Ek bilgi" bağlantısına tıklayın.
+2. "Yine de çalıştır" düğmesine basın.
+Uygulama tamamen yereldir; hiçbir veri dışarı gönderilmez.
