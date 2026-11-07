@@ -1,0 +1,29 @@
+{
+  "name": "ders-programi",
+  "version": "1.0.0",
+  "description": "Ders Programı",
+  "main": "main.js",
+  "author": "Kurum",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "tr.edu.dersprogrami",
+    "productName": "Ders Programi",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "preload.js", "DersProgrami.html", "package.json"],
+    "win": {
+      "target": [{ "target": "portable", "arch": ["x64"] }]
+    },
+    "portable": {
+      "artifactName": "DersProgrami-${version}.exe",
+      "unpackDirName": "DersProgrami"
+    }
+  }
+}
